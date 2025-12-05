@@ -288,7 +288,7 @@ const App = () => {
                 type="submit"
                 className="mt-4 w-full py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded text-sm transition-colors"
               >
-                VERIFY NOW
+                VERIFY NOW!
               </button>
 
               <div className="mt-4 h-6 text-red-400 font-bold text-sm animate-bounce">
