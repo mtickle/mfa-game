@@ -1,6 +1,6 @@
 {
   "name": "mfa-game",
-  "homepage": "https://mtickle.github.io/mfa-game",
+  "homepage": "/mfa-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
