@@ -17,7 +17,7 @@ const DISTRACTIONS = [
   "Processing request...",
   "Buffering...",
   "Did I lock the front door?",
-  "Boss is slacking you...",
+  "Teams call from the Boss...",
   "Low Battery: 2%"
 ];
 
