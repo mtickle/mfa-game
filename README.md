@@ -1,16 +1,35 @@
-# React + Vite
+# 2FA: The Game 🔐 ⏱️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Memorize the code. Survive the distraction. Don't panic.**
 
-Currently, two official plugins are available:
+We all know the feeling. You look at your authenticator app, see a 6-digit code, look back at your screen, get distracted by a Slack notification, and suddenly your mind goes completely blank. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**2FA: The Game** gamifies that exact flavor of modern anxiety. 
 
-## React Compiler
+## 🎮 How to Play
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Memorize Token:** You are shown a 6-digit code. As you level up, the time you have to look at it gets drastically shorter.
+2. **Survive the Distraction:** The code vanishes and is replaced by a random life event (e.g., "Kid is screaming", "Buffering...", "Cat jumped on keyboard"). You must hold the numbers in your short-term memory through the chaos.
+3. **Verify Identity:** Type the code. **Warning:** The input auto-submits the moment you hit the 6th keystroke. There is no backspacing your final mistake. 
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Dynamic Difficulty:** The viewing window shrinks by 200ms every level.
+* **Psychological Warfare:** Random 1-4 second "distraction" phases break your concentration.
+* **Auto-Submit Anxiety:** Instant validation upon the 6th digit entered. Typo at the end? Access Denied.
+* **Streak Multipliers:** Get a percentage bonus to your score for hitting perfect, first-try entries in a row.
+* **Responsive UI:** Dark-mode, terminal-inspired design using Tailwind CSS.
+
+## 🛠️ Tech Stack
+
+* **Frontend:** [React](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+
+## 🚀 Local Setup
+
+Want to induce rage on your own machine? 
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/2fa-the-game.git](https://github.com/yourusername/2fa-the-game.git)
